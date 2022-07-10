@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "FOXLERS X WHIMSYCHAMELEON";
+const description = "A collection of 5000 NFT from two fantastic designs by Foxlers and WhimsyChameleon that adds additional fun, originality and groove. The outcomes are astounding when two projects collaborate. This is the starting point for two upcoming projects that will hit the shelves of the NFT market. The Whimsy Foxes are fun and lovable characters. Despite their occasionally chaotic behavior, they are very devoted to their friends. Their fur is the coolest feature of their bodies, and it comes in a variety of hues that go with every season.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -16,23 +16,24 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Clothes" },
+      { name: "Accessories" },
+      { name: "Skin" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Headwear" },
+      { name: "Pets" },
     ],
   },
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 3000,
+  height: 3000,
   smoothing: false,
 };
 
